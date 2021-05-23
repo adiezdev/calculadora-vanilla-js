@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.board{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    width: 450px;
+    font-size: 25pt;
+}
+.input{
+    text-align: right;
+    grid-column: 1 / 5;
+}
